@@ -292,37 +292,37 @@ $ mkdir second-project && cd second-project && touch index.html style.css
 
 ## Навигация
 
-<kbd>pwd</kbd> (от англ. print working directory, «показать рабочую папку») — покажи, в какой я папке;
-<kbd>ls</kbd> (от англ. list directory contents, «отобразить содержимое директории») — покажи файлы и папки в текущей папке;
-<kbd>ls -a</kbd> — покажи также скрытые файлы и папки, названия которых начинаются с символа <kbd>.</kbd>;
-<kbd>cd first-project</kbd> (от англ. change directory, «сменить директорию») — перейди в папку <kbd>first-project</kbd>;
-<kbd>cd first-project/html</kbd> — перейди в папку <kbd>html</kbd>, которая находится в папке <kbd>first-project</kbd>;
-<kbd>cd ..</kbd> — перейди на уровень выше, в родительскую папку;
-<kbd>cd ~</kbd> — перейди в домашнюю директорию (<kbd>/Users/Username</kbd>);
-<kbd>cd /</kbd> — перейди в корневую директорию.
+- <kbd>pwd</kbd> (от англ. print working directory, «показать рабочую папку») — покажи, в какой я папке;
+- <kbd>ls</kbd> (от англ. list directory contents, «отобразить содержимое директории») — покажи файлы и папки в текущей папке;
+- <kbd>ls -a</kbd> — покажи также скрытые файлы и папки, названия которых начинаются с символа <kbd>.</kbd>;
+- <kbd>cd first-project</kbd> (от англ. change directory, «сменить директорию») — перейди в папку <kbd>first-project</kbd>;
+- <kbd>cd first-project/html</kbd> — перейди в папку <kbd>html</kbd>, которая находится в папке <kbd>first-project</kbd>;
+- <kbd>cd ..</kbd> — перейди на уровень выше, в родительскую папку;
+- <kbd>cd ~</kbd> — перейди в домашнюю директорию (<kbd>/Users/Username</kbd>);
+- <kbd>cd /</kbd> — перейди в корневую директорию.
 
 ## Работа с файлами и папками
 
 ### Создание
 
-<kbd>touch index.html</kbd> (англ. touch, «коснуться») — создай файл <kbd>index.html</kbd> в текущей папке;
-<kbd>touch index.html style.css script.js</kbd> — если нужно создать сразу несколько файлов, можно напечатать их имена в одну строку через пробел;
-<kbd>mkdir second-project</kbd> (от англ. make directory, «создать директорию») — создай папку с именем <kbd>second-project</kbd> в текущей папке.
+- <kbd>touch index.html</kbd> (англ. touch, «коснуться») — создай файл <kbd>index.html</kbd> в текущей папке;
+- <kbd>touch index.html style.css script.js</kbd> — если нужно создать сразу несколько файлов, можно напечатать их имена в одну строку через пробел;
+- <kbd>mkdir second-project</kbd> (от англ. make directory, «создать директорию») — создай папку с именем <kbd>second-project</kbd> в текущей папке.
 
 ##Копирование и перемещение
 
-<kbd>cp file.txt ~/my-dir</kbd> (от англ. copy, «копировать») — скопируй файл в другое место;
-<kbd>mv file.txt ~/my-dir</kbd> (от англ. move, «переместить») — перемести файл или папку в другое место.
+- <kbd>cp file.txt ~/my-dir</kbd> (от англ. copy, «копировать») — скопируй файл в другое место;
+- <kbd>mv file.txt ~/my-dir</kbd> (от англ. move, «переместить») — перемести файл или папку в другое место.
 
 ## Чтение
 
-<kbd>cat file.txt</kbd> (от англ. concatenate and print, «объединить и распечатать») — распечатай содержимое текстового файла <kbd>file.txt</kbd>.
+- <kbd>cat file.txt</kbd> (от англ. concatenate and print, «объединить и распечатать») — распечатай содержимое текстового файла <kbd>file.txt</kbd>.
 
 ## Удаление
 
-<kbd>rm about.html</kbd> (от англ. remove, «удалить») — удали файл <kbd>about.html</kbd>;
-<kbd>rmdir images</kbd> (от англ. remove directory, «удалить директорию») — удали папку <kbd>images</kbd>;
-<kbd>rm -r second-project</kbd> (от англ. remove, «удалить» + recursive, «рекурсивный») — удали папку <kbd>second-project</kbd> и всё, что она содержит.
+- <kbd>rm about.html</kbd> (от англ. remove, «удалить») — удали файл <kbd>about.html</kbd>;
+- <kbd>rmdir images</kbd> (от англ. remove directory, «удалить директорию») — удали папку <kbd>images</kbd>;
+- <kbd>rm -r second-project</kbd> (от англ. remove, «удалить» + recursive, «рекурсивный») — удали папку <kbd>second-project</kbd> и всё, что она содержит.
 
 ## Полезные возможности
 
