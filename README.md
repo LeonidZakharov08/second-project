@@ -772,14 +772,13 @@ Git сообщит об этом с помощью статуса <kbd>modified<
 ## Типичный жизненный цикл файла в Git
 
 ```mermaid
-  graph LR;
-      untracked (неотслеживаемый) -- "git add" --> staged (в списке на коммит) + tracked;
-      staged (в списке на коммит) + tracked -- "git commit" --> tracked (отслеживаемый);
-      tracked (отслеживаемый) -- "Изменения" --> modified (изменённый);
-      modified (изменённый) -- "git add" --> staged (в списке на коммит) + tracked;
-      staged (в списке на коммит) + tracked -- "Изменения" --> modified (изменённый)	
+graph LR;
+    A("untracked (неотслеживаемый)") -->|git add| B("(staged(в списке на коммит)+tracked");
+    B("staged(в списке на коммит)+tracked") -->|git commit| C("tracked (отслеживаемый)");
+    C("tracked (отслеживаемый)") -->|Изменения| D("modified (изменённый)");
+    D("modified (изменённый)") -->|git add| B("(staged(в списке на коммит)+tracked");
+    B("staged(в списке на коммит)+tracked") -->|Изменения| D("modified (изменённый)");
 ```
-
 
 1. Файл только что создали. Git ещё не отслеживает содержимое этого файла. Состояние: <kbd>untracked</kbd>.
 2. Файл добавили в staging area с помощью <kbd>git add</kbd>. Состояние: <kbd>staged</kbd> (+ <kbd>tracked</kbd>).
